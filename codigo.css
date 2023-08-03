@@ -1,0 +1,169 @@
+@import 'https://fonts.googleapis.com/css?family=Exo:200,500';
+
+
+body {
+    font-size: large;
+    height: 250;
+    
+    background-image: url(https://www.1zoom.me/big2/51/222957-Sepik.jpg)
+    
+
+}
+
+/* HEADER */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+  li a {
+    display: flex;
+    text-decoration: none;
+    margin: 0 0.5em 0 0.5em;
+    font-size: 1.25em;
+  }
+
+header {
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+  @media (max-width: 700px) {
+    flex-direction: column;
+    height:200px;
+  }
+}
+
+div.logo {
+  display: flex;
+  width: auto;
+}
+
+div.headline {
+  display: flex;
+  color: rgb(19, 143, 7);
+  width:auto;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+img {
+  max-height: 100px;
+  width: auto;
+}
+
+/*Main Content*/
+
+div.main-content {
+  padding: 0 20px;
+  margin-top: 130px;
+  @media (max-width: 700px) {
+  margin-top:210px;
+  }
+}
+
+.item {
+  display: flex;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}
+
+.description {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    padding: 5px;
+}
+
+.fas {
+  color: green;
+  font-size: 4em
+}
+
+/*MOVIE*/
+
+#movie
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin-bottom: 20px;
+  width: 30%;
+  min-width:200px;
+  padding: 5px;
+}
+input[type="submit"] {
+  font-family: Exo, open-sans;
+  font-size: 5em;
+  text-transform: uppercase;
+  padding: 0.5em;
+  background-color: #fff;
+  border: 0px solid rgb(0, 0, 255);
+  box-shadow: 5px 5px 2px 2px;
+  
+  &:hover {
+    background-color: #000;
+    color: #000000;
+    transition: color 1s;
+    transition: background-color 1s;
+    cursor: pointer;
+  }
+}
+
+input[type="email"] {
+  text-align: center;
+  background-color: #fff;
+}
+
+::placeholder {
+  font-size: 1.25em;
+}
+
+hr {
+       display: block;
+       position: relative;
+       padding: 0;
+       margin: 20px auto;
+       height: 40px;
+       width: 60%;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border-top: 2px solid white;
+    }
+    #nav{
+
+color: rgb(19, 143, 7);
+
+
+    }
